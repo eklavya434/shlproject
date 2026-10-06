@@ -1,0 +1,22 @@
+============================================================
+SUBMISSION VALIDATION AUDIT REPORT
+============================================================
+TEST ROWS         : 216
+PREDICTION ROWS   : 216
+SUBMISSION ROWS   : 216
+ROW COUNT MATCH   : True
+
+NaN COUNT         : 0
+Inf COUNT         : 0
+DUPLICATE IDS     : 0
+
+PREDICTION STATS  :
+  Minimum         : 1.3710
+  Maximum         : 4.9971
+  Mean            : 3.2924
+  Std             : 0.6730
+
+COLUMNS           : ['filename', 'label']
+OUTPUT FILE       : C:\Users\eklav\Desktop\shlproject\submission.csv
+OVERALL STATUS    : PASS
+============================================================
