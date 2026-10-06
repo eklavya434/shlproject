@@ -149,7 +149,8 @@ plt.xlabel('Grammar Score')
 plt.tight_layout()
 plt.savefig('artifacts/figures/eda_target.png')
 plt.close()
-print("Saved EDA figure to artifacts/figures/eda_target.png")
+from IPython.display import Image, display
+display(Image('artifacts/figures/eda_target.png'))
 """))
 
     # 7. Audio Preprocessing & Speech-to-Text
@@ -374,7 +375,9 @@ plt.grid(True, linestyle='--', alpha=0.5)
 plt.tight_layout()
 plt.savefig('artifacts/figures/notebook_visualizations.png')
 plt.close()
-print("Saved summary plots to artifacts/figures/notebook_visualizations.png")
+from IPython.display import Image, display
+display(Image('artifacts/figures/notebook_visualizations.png'))
+display(Image('artifacts/figures/feature_importance.png'))
 """))
 
     # 17. Error Analysis & Interpretability
