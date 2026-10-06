@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Audio dataset binaries (GitHub 100MB limit)
+Dataset_Final/train/
+Dataset_Final/test/
+*.wav
+*.mp3
+*.flac
+*.zip
+*.tar.gz
+
+# Cache models or large weight binaries
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
